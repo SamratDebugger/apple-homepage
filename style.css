@@ -1,0 +1,130 @@
+/* fonts*/
+@import url('https://fonts.cdnfonts.com/css/sf-pro-display');
+
+:root {
+    --color-primary: #0071E3;
+}
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'SF Pro Display', sans-serif;
+}
+
+.max-width {
+    max-width: 1440px
+}
+
+/* navigation bar */
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.finding i:last-child {
+    margin-left: 30px;
+}
+
+/* hero */
+
+.hero {
+    text-align: center;
+    background-image: url(./images/hero.jpg);
+    background-repeat: no-repeat;
+    background-size: 3008px 580px;
+    height: 530px;
+    background-position: center;
+    padding-top: 50px;
+
+}
+
+
+
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: 400;
+}
+
+nav {
+    padding: 15px 0;
+}
+
+.learnMore,
+.shoping {
+    border-radius: 50px;
+    padding: 10px 20px;
+    font-size: 18px;
+
+}
+
+
+.learnMore {
+    background-color: var(--color-primary);
+    color: white;
+    border: 1px solid var(--color-primary);
+}
+
+
+
+.shoping {
+    color: var(--color-primary);
+    background-color: transparent;
+    border: 1px solid var(--color-primary);
+    margin-left: 12px;
+
+}
+
+.shoping:hover {
+    background-color: var(--color-primary);
+    color: white;
+}
+
+.intelligence p {
+    font-size: 25px;
+    background: linear-gradient(90deg, rgb(0, 144, 247), rgb(186, 98, 252), rgb(242, 65, 107), rgb(245, 86, 0)) text;
+    display: inline-block;
+    color: transparent;
+    margin-top: 15px;
+}
+
+/* ipad */
+.ipad {
+    text-align: center;
+    margin-top: 40px;
+    background-image: url(./images/ipad-image.jpg);
+    background-repeat: no-repeat;
+    background-size: auto 650px;
+    height: 530px;
+    background-position: center;
+    padding: 70px 0;
+}
+
+.hero2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: -webkit-fill-available;
+
+}
+
+.content2 h2 {
+    margin: 20px 0;
+}
+
+.content2 h1,
+.content2 h2 {
+    color: white;
+}
