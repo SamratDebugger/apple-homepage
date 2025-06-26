@@ -133,16 +133,29 @@ nav {
 
 /* footer */
 footer {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-    justify-content: center;
-    grid-gap: 40px;
+    display: flex;
+    justify-content: space-between;
+
     margin-left: auto;
     margin-right: auto;
     padding: 40px 2px;
 }
 
-ul li {
+footer h3 {
+    font-size: 18px;
+    margin-bottom: 12px;
+}
+
+.row:not(:last-child) {
+    margin-bottom: 20px;
+}
+
+.list li {
     list-style: none;
-    color: black;
+    color: gray;
+
+}
+
+.list li:not(:last-child) {
+    margin-bottom: 12px;
 }
